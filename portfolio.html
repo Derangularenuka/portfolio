@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+    }
+    body {
+        background-color: #1f263a;
+        color: white;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+    }
+    .logo {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    nav a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    nav a:hover {
+        color: #5dade2;
+    }
+    hr {
+        border: 1px solid #ccc;
+        margin: 0 60px;
+    }
+    .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 60px;
+    }
+    .text-content {
+        max-width: 600px;
+    }
+    .text-content h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .text-content h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .text-content h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .text-content h2 span {
+        color: #5dade2;
+    }
+    .text-content p {
+        line-height: 1.6;
+        margin-bottom: 25px;
+        color: #d5d8dc;
+    }
+    .social-icons a {
+        display: inline-block;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #5dade2;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px;
+        color: #5dade2;
+        transition: 0.3s;
+    }
+    .social-icons a:hover {
+        background-color: #5dade2;
+        color: #1f263a;
+    }
+    .btn {
+        margin-top: 30px;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 25px;
+        background-color: #5dade2;
+        color: #1f263a;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 0 15px #5dade2;
+    }
+    .btn:hover {
+        box-shadow: 0 0 25px #5dade2;
+    }
+    .image img {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 6px solid #5dade2;
+    }
+    </style>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">skills</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+
+    <hr>
+    <section class="text">
+        <div class="text-content">
+            <h3>hi Myself</h3>
+            <h1>Renuka Derangula</h1>
+            <h2>And i am a <span>Frontend Developer</span></h2>
+
+            <p>
+                I am a Frontend Developer with hands-on experience in creating responsive and interactive web pages using HTML, CSS, and JavaScript. I am eager to learn new technologies, improve my problem-solving skills, and contribute to real-world projects with a positive mindset.
+            </p>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <button class="btn">Download CV</button>
+        </div>
+
+        <!-- Profile Image -->
+        <div class="image">
+            <img src="c:\Users\admin\Pictures\Saved Pictures\renu pic.jpeg" alt="Profile">
+        </div>
+    </section>
+
+</body>
+</html>
